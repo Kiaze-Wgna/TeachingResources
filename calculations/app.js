@@ -41,7 +41,7 @@ function showresult(correct,answer){
         answer_text.style.opacity=0;
         answer_text.style.display="none";
         button_cooldown=false;
-        question_text.innerHTML=generate_question();
+        question_text.innerHTML="generate_question()";
     },3000)
 }
 function clean_string(string){
