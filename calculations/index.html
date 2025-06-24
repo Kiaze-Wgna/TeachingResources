@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teaching Resources</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page-wrapper">
+        <nav class="navbar">
+            <div class="navcontainer">
+                <a href="/" id="navlogo">Teaching Resources</a>
+                <div class="navtoggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navmenu">
+                    <li class="navitem">
+                        <a href="/calculations/" class="navlinks">Calculations Practice</a>
+                    </li>
+                    <li class="navitem">
+                        <a href="/" class="navlinks">Currently Unavailable</a>
+                    </li>
+                    <li class="navitem">
+                        <a href="/" class="navlinks">Currently Unavailable</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Actual Code -->
+        <div class="main-container">
+            <h1 class="generator-title">Calculations Generator</h1>
+            <div class="section-wrap" id="settings">
+                <div class="section-container">
+                    <p class="section-title">First Number</p>
+                    <div class="input-container">
+                        <input class="input-class" type="text" id="first-input" placeholder="Please enter a range...">
+                    </div>
+                </div>
+                <div class="section-container">
+                    <p class="section-title">Calculation Sign</p>
+                    <div class="input-container">
+                        <button class="select-button" id="Random"><span>Random</span></button>
+                        <button class="select-button" id="Addition"><span>+</span></button>
+                        <button class="select-button" id="Substraction"><span>-</span></button>
+                        <button class="select-button" id="Multiplication"><span>×</span></button>
+                        <button class="select-button" id="Division"><span>÷</span></button>
+                    </div>
+                </div>
+                <div class="section-container">
+                    <p class="section-title">Second Number</p>
+                    <div class="input-container">
+                        <input class="input-class" type="text" id="second-input" placeholder="Please enter a range...">
+                    </div>
+                </div>
+            </div>
+            <button class="practice-button" id="beginButton">
+                <span>Start Practicing</span>
+            </button>
+            <button class="practice-button" id="setButton" style="display: none;">
+                <span>Settings</span>
+            </button>
+            <p id="practice-question" class="practice-question-class" style="display: none;"></p>
+            <input class="practice-response-class" type="text" id="practice-response" placeholder="Please enter a range..." style="display: none;">
+            <button class="practice-button" id="responseSubmit" style="display: none;">
+                <span>Submit Answer</span>
+            </button>
+            <p id="practice-answer" class="practice-answer-class" style="display: none;"></p>
+        </div>
+        <!-- Footer Section -->
+        <div class="footer_container">
+            <div class="footer-wrap">
+                <a href="/" class="footer_logo">Teaching Resources</a>
+                <p class="website-right">© Teaching Resources 2025. All rights reserved</p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
