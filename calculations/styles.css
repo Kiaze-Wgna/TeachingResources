@@ -198,8 +198,13 @@ html, body {
 }
 .section-title{
     color: #fff;/*change later*/
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
     font-size: 1.2rem;
+}
+.section-desc{
+    color: #fff;/*change later*/
+    margin-bottom: 0.5rem;
+    font-size: 0.75rem;
 }
 .section-wrap{
     display: flex;
@@ -220,9 +225,8 @@ html, body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 150px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 .input-class{
     align-self: center;
@@ -231,11 +235,12 @@ html, body {
     background-color: #525252;
     border: none;
     font-size: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
 }
 .select-button{
     font-size: 1rem;
     background-image: white;
+    margin: 2px;
     padding: 2px 10px;
     border: none;
     border-radius: 4px;
