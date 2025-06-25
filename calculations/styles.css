@@ -308,25 +308,14 @@ html, body {
 }
 .practice-question-class{
     margin: 1rem;
-    font-size: 2rem;
+    font-size: 20rem;
     font-weight: 700;
     color: #fff;
 }
-.practice-response-class{
-    align-self: center;
+.stopwatch{
+    font-size: 2rem;
+    font-weight: 700;
     color: #fff;
-    width: 60%;
-    background-color: #525252;
-    border: none;
-    font-size: 25px;
-    margin-bottom: 25px;
-}
-.practice-answer-class{
-    display: flex;
-    color:white;
-    font-size: 1.3rem;
-    opacity: 0;
-    animation: fadeOut 7s forwards;
 }
 /* Footer section */
 .footer_container{
